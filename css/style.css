@@ -7,7 +7,17 @@
 }
 
 .container {
-    display:grid
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    justify-content: space-around;
+    align-content: center;
+    background-color: green;
+}
+
+.item1 {
+    align-self: center;
+    background-color: violet;
 }
 
 .aside2 {
