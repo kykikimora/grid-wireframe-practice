@@ -1,29 +1,27 @@
-.header {
-    display: grid
-}
-
-.aside1 {
-    display: grid
-}
-
 .container {
     display:grid;
-    grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
     justify-content: space-around;
     align-content: center;
-    background-color: green;
+    background-color: gray;
 }
 
-.item1 {
+.header {
+    
+}
+
+.aside1 {
+    
+}
+
+.column {
     align-self: center;
-    background-color: violet;
 }
 
 .aside2 {
-    display:grid
+    
 }
 
 .footer {
-    display: grid
+    
 }
