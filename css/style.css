@@ -1,32 +1,3 @@
-.container {
-    display:grid;
-    column-gap: 20px;
-    justify-content: space-around;
-    align-content: center;
-    background-color: gray;
-}
-
-.header {
-    
-}
-
-.aside1 {
-    
-}
-
-.column {
-    align-self: center;
-}
-
-.aside2 {
-    
-}
-
-.footer {
-    
-}
-
-/************************uuuuuuuuugh
 /* Page container */
 .container {
     display: grid;
@@ -72,7 +43,7 @@
 /* Article wrapper = nested grid */
 .article {
     display: grid;
-    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(3, auto);
     gap: 15px;
 
     padding: 15px;

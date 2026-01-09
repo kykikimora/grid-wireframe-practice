@@ -1,0 +1,46 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "aside aside article article aside aside"
+    "footer footer footer footer footer footer";
+  gap: 3px;
+  background-color: dodgerblue;
+  padding: 5px;
+}
+
+.header,
+.aside1,
+.aside2,
+.article,
+.column,
+.footer {
+  /*display: grid*/  
+  background-color: #ffa4be;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 8px;
+}
+
+
+.header {
+  grid-area: header;
+  text-align: center;
+}
+.aside1 {
+  grid-area: aside;
+  text-align: center;
+}
+.article {
+  grid-area: article;
+  text-align: center;
+}
+.aside2 {
+  grid-area: aside;
+  text-align: center;
+}
+.footer {
+  grid-area: footer;
+  text-align: center;  
+}
