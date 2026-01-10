@@ -10,8 +10,7 @@
 }
 
 .header,
-.aside1,
-.aside2,
+.aside,
 .article,
 .column,
 .footer {
@@ -28,7 +27,7 @@
   grid-area: header;
   text-align: center;
 }
-.aside1 {
+.aside {
   grid-area: aside;
   text-align: center;
 }
@@ -36,10 +35,7 @@
   grid-area: article;
   text-align: center;
 }
-.aside2 {
-  grid-area: aside;
-  text-align: center;
-}
+
 .footer {
   grid-area: footer;
   text-align: center;  
